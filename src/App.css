@@ -1,38 +1,122 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: #fff;
+
+}
+.center{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+  .top{
+    background-color: black;
+  } 
+  #home{
+    color:#fff
+  }
+  
+ 
+  #name{
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Comfortaa';
+    font-weight: bolder;
+  }
+  .left{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 20px;
+  }
+  
+  .mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
+  }
+  .middle span{
+    font-family: 'Coda Caption';
+    font-size: 8vw;
+    color: #00000069;
+  }
+  .middle p{
+    font-family: 'Comfortaa';
+    font-size: 2vw;
+  }
+  .buttons{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: #fff;
+  }
+  .bottom{
+    background-color: black;
+    height:40px;
+    display: flex;
+    font-family: 'Comfortaa';
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+  }
+  .backround{
+    height: 350px;
+    width: 350px;
+    background: rgba(190, 189, 189, 0.28);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.2px);
+-webkit-backdrop-filter: blur(13.2px);
+border: 1px solid rgba(118, 117, 117, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .title{
+    font-family: 'Comfortaa';
+    font-size: larger;
+    font-weight: bold;
+  }
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .inputs input{
+    height: 30px;
+    width: 200px;
+    border-radius: 2px;
+    border: none;
+  }
+  .inputs input::placeholder{
+    padding-left: 10px;
+  }
+  .backround button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .buttons a{
+    text-decoration: none;
+    color: #fff;
   }
-}
+  button:hover{
+    background-color: rgb(32, 32, 32);
+  }
+
